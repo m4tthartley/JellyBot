@@ -1,4 +1,7 @@
 
+#include "../gjLib/gj_lib.h"
+#include "../gjLib/gj_linux.cc"
+
 #include <stdlib.h>
 #include <stdio.h>
 // #include <stdlib.h>
@@ -14,16 +17,23 @@
 #include <dlfcn.h>
 #include <curl/curl.h>
 
-#define assert(expression) if (!expression) { *((int*)0) = 0; }
-#define arraySize(array) (sizeof(array)/sizeof(array[0]))
-
-#define MINUTES(num) (num*60)
+#define SECS(num) (num)
+#define MINS(num) (num*60)
 #define HOURS(num) (num*MINUTES(60))
 
 void exitWithError (const char *message) {
 	printf("%s, exiting... \n", message);
 	exit(0);
 }
+
+/*void _logMessage (const char *str) {
+	printf(str);
+}
+#define logMessage(str, ...) { char buffer[1024]; sprintf(buffer, str"\n", __VA_ARGS__); _logMessage(buffer); }*/
+
+#define printf(...)\
+	printf(__VA_ARGS__);\
+	// write to file
 
 #define curl_version_info_proc(name) curl_version_info_data *name(CURLversion type)
 curl_version_info_proc((*curlVersionInfo));
@@ -71,7 +81,7 @@ void loadCurlCode () {
 #include "message_data.h"
 
 size_t curlWriteCallback (char *ptr, size_t size, size_t nmemb, void *userdata) {
-	// printf("curl: %s \n", ptr);
+	// logMessage("curl: %s", ptr);
 	return size * nmemb;
 }
 
@@ -97,6 +107,7 @@ void stopCurl () {
 }
 
 void sendSlackMessage (const char *message) {
+	printf("Message: %s \n", message);
 	if (globalCurl) {
 		curlEasySetopt(globalCurl, CURLOPT_URL, slackWebHookUrl);
 		char str[1024];
@@ -109,100 +120,149 @@ void sendSlackMessage (const char *message) {
 	}
 }
 
+int getLocalMin () {
+	time_t rawTime;
+	time(&rawTime);
+	tm *localTime = localtime(&rawTime);
+	return localTime->tm_min;
+}
+
+int getLocalHour () {
+	time_t rawTime;
+	time(&rawTime);
+	tm *localTime = localtime(&rawTime);
+	return localTime->tm_hour;
+}
+
+struct Message {
+	char *str;
+	int usedCount;
+};
+
+gjMemStack messageStack = gjInitMemStack(megabytes(1));
+Message *messageTable;
+int messageTableSize = 0;
+
+void loadMessageData () {
+	gjMemStack memStack = gjInitMemStack(megabytes(1));
+	gjData messageData = gjReadFile("messages.txt", &memStack);
+
+	messageTable = (Message*)messageStack.mem;
+
+	char *start = messageData.mem;
+	char *ptr = start;
+	char *tokenStart = ptr;
+	while (ptr < start + messageData.size) {
+		while (*ptr == ' ' || *ptr == '\t' || *ptr == '\n') {
+			++ptr;
+		}
+
+		tokenStart = ptr;
+
+		if (*ptr == '/') {
+			while (*ptr != '\n' && ptr < start + messageData.size) {
+				++ptr;
+			}
+			++ptr;
+			tokenStart = ptr;
+		} else if (ptr < start + messageData.size) {
+			++ptr;
+			while (*ptr != '\n' && ptr < start + messageData.size) {
+				++ptr;
+			}
+
+			*ptr = 0;
+			// printf("line: %s \n", tokenStart);
+			++messageTableSize;
+			Message *msg = (Message*)gjPushMemStack(&messageStack, sizeof(Message), true);
+			msg->str = tokenStart;
+
+			++ptr;
+			tokenStart = ptr;
+		}
+	}
+
+#if 0
+	printf("messages {\n");
+	fiz (messageTableSize) {
+		printf("\t%s \n", messageTable[i].str);
+	}
+	printf("}\n");
+#endif
+}
+
 int main () {
-	printf("Message count %i \n", arraySize(slackMessageTable));
+	loadMessageData();
+
+	printf("Message count %i \n", messageTableSize);
 
 	loadCurlCode();
 	initCurl();
 
-	timespec lastTime;
-	clock_gettime(CLOCK_REALTIME, &lastTime);
-	srand(lastTime.tv_nsec);
+	timespec startTime;
+	clock_gettime(CLOCK_REALTIME, &startTime);
+	srand(startTime.tv_nsec);
 
-	int interval = HOURS(1);
+	int hourOfLastMessage = getLocalHour();
+
+	// int interval = HOURS(1);
+	int interval = SECS(10);
+
+	int lastMessageIndex = 0;
 
 	while (true) {
 		time_t rawTime;
 		time(&rawTime);
 		tm *localTime = localtime(&rawTime);
 #if 0
-		printf("hour %i, minute %i, second %i \n", localTime->tm_hour, localTime->tm_min, localTime->tm_sec);
+		logMessage("hour %i, minute %i, second %i", localTime->tm_hour, localTime->tm_min, localTime->tm_sec);
 #endif
 
-		timespec currentTime;
-		clock_gettime(CLOCK_REALTIME, &currentTime);
+		// timespec currentTime;
+		// clock_gettime(CLOCK_REALTIME, &currentTime);
 
-		if (currentTime.tv_sec - lastTime.tv_sec >= interval) {
-			lastTime = currentTime;
+		int hour = getLocalHour();
+		int minute = getLocalMin();
 
-			// Only run if it's not night time
-			if (localTime->tm_hour >= 9) {
-				printf("Sending slack message... \n");
-				sendSlackMessage(slackMessageTable[rand() % arraySize(slackMessageTable)]);
+		if (hour != hourOfLastMessage) {
+			hourOfLastMessage = hour;
+
+			// Only run if it's not night time, last is at midnight, first is at 9am
+			if (hour >= 9 || hour == 0) {
+				bool allSame = true;
+				fiz (messageTableSize) {
+					if (messageTable[i].usedCount != messageTable[lastMessageIndex].usedCount) {
+						allSame = false;
+						break;
+					}
+				}
+
+				if (allSame) {
+					printf("All the usedCounts are the same \n");
+				}
+
+				int index = rand() % messageTableSize;
+				printf("%i ", index);
+				if (messageTable[index].usedCount > 0 && !allSame) {
+					while (messageTable[index].usedCount >= messageTable[lastMessageIndex].usedCount) {
+						index = rand() % messageTableSize;
+						printf("searching %i->%i  %i->%i \n", index, messageTable[index].usedCount, lastMessageIndex, messageTable[lastMessageIndex].usedCount);
+					}
+				}
+
+				printf("%i ", index);
+				sendSlackMessage(messageTable[index].str);
+				++messageTable[index].usedCount;
+				lastMessageIndex = index;
 			} else {
 				printf("It's in-between mid-night and 9am so I'll keep sleeping... \n");
 			}
+		} else {
+			printf("Not time to send message yet, %i minutes left, going back to sleep... \n", (60 - minute));
 		}
 
-		sleep(MINUTES(1));
+		sleep(MINS(1));
 	}
 
 	stopCurl();
-}
-
-// Doesn't work for slack cause you need ssl
-void bsdSocketCode () {
-	addrinfo addressHints = {};
-	addressHints.ai_family = AF_UNSPEC;
-	addressHints.ai_socktype = SOCK_STREAM;
-
-	addrinfo *suggestedAddrInfo;
-	int result = getaddrinfo(slackWebHookHost, "80", &addressHints, &suggestedAddrInfo);
-	if (result != 0) {
-		printf("getaddrinfo error \n");
-	}
-
-	int socketHandle;
-	addrinfo *addr = suggestedAddrInfo;
-	while (addr != NULL) {
-		socketHandle = socket(addr->ai_family, addr->ai_socktype, addr->ai_protocol);
-		if (socketHandle != -1) {
-			break;
-		}
-
-		addr = addr->ai_next;
-	}
-	
-	if (socketHandle == -1) {
-		printf("Couldn't create socket \n");
-	}
-
-	char str[1024];
-	inet_ntop(addr->ai_family, &(((sockaddr_in*)addr->ai_addr)->sin_addr), str, sizeof(str));
-	printf("Connecting to %s \n", str);
-
-	result = connect(socketHandle, addr->ai_addr, addr->ai_addrlen);
-	if (result == -1) {
-		printf("Couldn't connect \n");
-	}
-
-	const char *data = "POST "slackWebHookUrl" HTTP/1.1\nHost: "slackWebHookHost"\nContent-type: application/json\npayload={\"text\":\""testMessage"\"}\n\n";
-	int dataLen = strlen(data)+1;
-	printf("\n%s \n\n", data);
-
-	result = write(socketHandle, data, dataLen);
-	if (result != dataLen) {
-		printf("Write error \n");
-	}
-
-	char buffer[4096];
-	int readSize = read(socketHandle, buffer, sizeof(buffer));
-	if (readSize == -1) {
-		printf("Read error \n");
-	}
-
-	printf("Response \n%s \n", buffer);
-
-	freeaddrinfo(suggestedAddrInfo);
-	close(socketHandle);
 }

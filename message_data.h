@@ -1,6 +1,5 @@
 
-const char *slackMessageTable[] = {
-#if 1
+/*const char *slackMessageTable[] = {
 	"Beep boop",
 	"Beep boop beep beep... beep",
 	"@josh is dumb",
@@ -55,16 +54,4 @@ const char *slackMessageTable[] = {
 	// Assassin's creed
 	"Dirty thief I'll have your hand for that!",
 	"You dare steal in my presence? That will cost you your life!",
-#else
-	"test0",
-	"test1",
-	"test2",
-	"test3",
-	"test4",
-	"test5",
-	"test6",
-	"test7",
-	"test8",
-	"test9",
-#endif
-};
+};*/
