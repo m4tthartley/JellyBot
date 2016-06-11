@@ -107,8 +107,9 @@ void stopCurl () {
 }
 
 void sendSlackMessage (const char *message) {
-	printf("Message: %s \n", message);
-	if (globalCurl) {
+	printf("\n");
+	printf("%s \n", message);
+	/*if (globalCurl) {
 		curlEasySetopt(globalCurl, CURLOPT_URL, slackWebHookUrl);
 		char str[1024];
 		sprintf(str, "payload={\"text\":\"%s\"}", message);
@@ -117,7 +118,7 @@ void sendSlackMessage (const char *message) {
 		if (result != CURLE_OK) {
 			printf("curl_easy_perform error \n");
 		}	
-	}
+	}*/
 }
 
 int getLocalMin () {
@@ -131,23 +132,66 @@ int getLocalHour () {
 	time_t rawTime;
 	time(&rawTime);
 	tm *localTime = localtime(&rawTime);
-	return localTime->tm_hour;
+	return localTime->tm_sec;
 }
 
 struct Message {
 	char *str;
-	int usedCount;
+	int idOfLastUse;
 };
 
-gjMemStack messageStack = gjInitMemStack(megabytes(1));
-Message *messageTable;
-int messageTableSize = 0;
+struct State {
+	gjMemStack fileStack;
+	gjMemStack messageStorage;
+	gjMemStack messageStack;
+	Message *messageTable;
+	int messageTableSize;
+	int currentIncrement;
+};
 
-void loadMessageData () {
-	gjMemStack memStack = gjInitMemStack(megabytes(1));
-	gjData messageData = gjReadFile("messages.txt", &memStack);
+void loadMessageData (State *state);
 
-	messageTable = (Message*)messageStack.mem;
+void saveStateToDisk (State *state) {
+	// todo: Backup save file
+	gjFile saveFile = gjCreateFile("state.sav");
+	gjWrite(saveFile, state, sizeof(State));
+	gjWrite(saveFile, state->messageStorage.mem, state->messageStorage.size);
+	gjWrite(saveFile, state->messageStack.mem, state->messageStack.size);
+	gjCloseFile(saveFile);
+}
+
+void loadStateFromDiskOrInit (State *state) {
+	state->fileStack = gjInitMemStack(megabytes(20));
+	state->messageStorage = gjInitMemStack(megabytes(10));
+	state->messageStack = gjInitMemStack(megabytes(1));
+	state->messageTable = (Message*)state->messageStack.mem;
+
+	if (gjFileExists("state.sav")) {
+		printf("Save file found, loading state... \n");
+
+		gjData saveData = gjReadFile("state.sav", &state->fileStack);
+		State *tempState = (State*)saveData.mem;
+		state->messageTableSize = tempState->messageTableSize;
+		state->currentIncrement = tempState->currentIncrement;
+
+		void *saveMessageStorage = saveData.mem + sizeof(State);
+		gjMemcpy(state->messageStorage.mem, saveMessageStorage, tempState->messageStorage.size);
+
+		void *saveMessageStack = (char*)saveMessageStorage + tempState->messageStorage.size;
+		gjMemcpy(state->messageStack.mem, saveMessageStack, tempState->messageStack.size);
+	} else {
+		printf("No save file found, creating state... \n");
+
+		loadMessageData(state);
+		saveStateToDisk(state);
+	}
+}
+
+void loadMessageData (State *state) {
+	printf("Loading data... \n");
+	int skippedMessages = 0;
+
+	gjData messageData = gjReadFile("starwars.quotes", &state->fileStack);
 
 	char *start = messageData.mem;
 	char *ptr = start;
@@ -167,20 +211,36 @@ void loadMessageData () {
 			tokenStart = ptr;
 		} else if (ptr < start + messageData.size) {
 			++ptr;
-			while (*ptr != '\n' && ptr < start + messageData.size) {
+			while ((*ptr != '\n' || ptr[1] != '\n') && ptr < start + messageData.size) {
 				++ptr;
 			}
 
 			*ptr = 0;
-			// printf("line: %s \n", tokenStart);
-			++messageTableSize;
-			Message *msg = (Message*)gjPushMemStack(&messageStack, sizeof(Message), true);
-			msg->str = tokenStart;
+			
+			bool alreadyLoaded = false;
+			fiz (state->messageTableSize) {
+				if (gjStrcmp(tokenStart, state->messageTable[i].str) == 0) {
+					alreadyLoaded = true;
+					break;
+				}
+			}
+			if (!alreadyLoaded) {
+				++state->messageTableSize;
+				Message *msg = (Message*)gjPushMemStack(&state->messageStack, sizeof(Message), true);
+				char *storage = gjPushMemStack(&state->messageStorage, gjStrlen(tokenStart) + 1);
+				gjStrcpy(storage, tokenStart);
+				msg->str = storage;
+			} else {
+				++skippedMessages;
+			}
 
 			++ptr;
 			tokenStart = ptr;
 		}
 	}
+
+	printf("skipped messages %i \n", skippedMessages);
+	printf("Done \n");
 
 #if 0
 	printf("messages {\n");
@@ -191,10 +251,18 @@ void loadMessageData () {
 #endif
 }
 
-int main () {
-	loadMessageData();
+void sendRandomMessage (State *state) {
+	sendSlackMessage(state->messageTable[rand() % state->messageTableSize].str);
+}
 
-	printf("Message count %i \n", messageTableSize);
+int main () {
+	State state = {};
+	loadStateFromDiskOrInit(&state);
+
+	const char *writeStr = "Princess Leia Organa: No! Alderaan is peaceful! We have no weapons, you can't possibly...";
+	gjWriteFile("writetest.txt", (void*)writeStr, gjStrlen(writeStr));
+
+	printf("Message count %i \n", state.messageTableSize);
 
 	loadCurlCode();
 	initCurl();
@@ -229,7 +297,7 @@ int main () {
 
 			// Only run if it's not night time, last is at midnight, first is at 9am
 			if (hour >= 9 || hour == 0) {
-				bool allSame = true;
+				/*bool allSame = true;
 				fiz (messageTableSize) {
 					if (messageTable[i].usedCount != messageTable[lastMessageIndex].usedCount) {
 						allSame = false;
@@ -242,7 +310,6 @@ int main () {
 				}
 
 				int index = rand() % messageTableSize;
-				printf("%i ", index);
 				if (messageTable[index].usedCount > 0 && !allSame) {
 					while (messageTable[index].usedCount >= messageTable[lastMessageIndex].usedCount) {
 						index = rand() % messageTableSize;
@@ -250,10 +317,13 @@ int main () {
 					}
 				}
 
-				printf("%i ", index);
 				sendSlackMessage(messageTable[index].str);
+				printf("\n");
 				++messageTable[index].usedCount;
-				lastMessageIndex = index;
+				lastMessageIndex = index;*/
+
+				sendRandomMessage(&state);
+				saveStateToDisk(&state);
 			} else {
 				printf("It's in-between mid-night and 9am so I'll keep sleeping... \n");
 			}
@@ -261,7 +331,7 @@ int main () {
 			printf("Not time to send message yet, %i minutes left, going back to sleep... \n", (60 - minute));
 		}
 
-		sleep(MINS(1));
+		sleep(SECS(1));
 	}
 
 	stopCurl();
