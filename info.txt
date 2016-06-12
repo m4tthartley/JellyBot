@@ -1,0 +1,1014 @@
+messageTableSize 632
+currentIncrement 296
+
+id 281 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 282 use 0 "Belloq: What a fitting end to your life's pursuits. You're about" 
+id 283 use 0 "Indiana: Do we need the monkey?
+Marion: I'm surprised at you. Ta" 
+id 284 use 0 "Indiana: Meet me at Omar's. Be ready for me. I'm going after tha" 
+id 285 use 0 "Indiana: There's a big snake in the plane, Jock!
+Jock: Oh, that'" 
+id 286 use 0 "Indiana: You want to talk to God? Let's go see him together, I'v" 
+id 287 use 0 "Indiana: [Indiana is being strangled against the bar. He calmly " 
+id 288 use 0 "[Upon opening the Well of the Souls and peering down]
+Sallah: In" 
+id 289 use 0 "Brody: Marion's the least of your worries right now, believe me," 
+id 290 use 0 "[Marion is being kidnapped]
+Marion: You can't do this to me, I'm" 
+id 291 use 0 "Indiana: I can only say I'm sorry so many times.
+Marion: Well, s" 
+id 292 use 0 "[Discussing the fate of the Ark]
+Maj. Eaton: We have top men wor" 
+id 293 use 0 "Maj. Eaton: [sees a picture of the Ark with rays of power coming" 
+id 294 use 0 "Sallah: Indy, there is something that troubles me.
+Indiana: What" 
+id 295 use 0 "Indiana: Here, take this,
+[hands Marion a torch]
+Indiana: Wave i" 
+id 296 use 0 "[Indiana needs his bullwhip to swing across a chasm]
+Indiana: Gi" 
+id 297 use 0 "[as the Nazis are opening the Ark]
+Indiana: Marion, don't look a" 
+id 298 use 0 "Belloq: You and I are very much alike. Archeology is our religio" 
+id 299 use 0 "[Indy meets Belloq in a crowded bar]
+Indiana: Belloq.
+Belloq: Go" 
+id 300 use 0 "[talking about Marion's late father]
+Marion: He said you were a " 
+id 301 use 0 "Indiana: Stay here.
+Satipo: [shrugs] If you insist, señor." 
+id 302 use 0 "[Indiana falls asleep while kissing her]
+Marion: We never seem t" 
+id 304 use 0 "Sallah: Indy, you have no time. If you still want the ark, it is" 
+id 305 use 0 "Belloq: All your life has been spent in pursuit of archaeologica" 
+id 306 use 0 "Indiana: Hello, Marion.
+Marion: Indiana Jones. I always knew som" 
+id 307 use 0 "[Marion removes heavy robe to reveal satin negligèe]
+Indiana: W" 
+id 308 use 0 "Brody: However, an Egyptian pharaoh...
+Indiana: Shishak.
+Brody: " 
+id 309 use 0 "Belloq: How odd that it should end this way for us after so many" 
+id 310 use 0 "Marion: Well, Jones, at least you haven't forgotten how to show " 
+id 311 use 0 "Belloq: Dr. Jones. Again we see there is nothing you can possess" 
+id 312 use 0 "Toht: Good evening, Fraulein.
+Marion: The bar's closed.
+Toht: We" 
+id 313 use 0 "Indiana: The Ark of the Covenant, the chest that the Hebrews use" 
+id 314 use 0 "[looking at an old picture of the Ark]
+Colonel Musgrove: Now, wh" 
+id 315 use 0 "Katanga: Jones is dead. I killed him. He was of no use to us. Th" 
+id 316 use 0 "Indiana: Too bad the Hovitos don't know you the way I do, Belloq" 
+id 317 use 0 "1st Mechanic: [to Indy, in German] Hey, thin man! Come here! Com" 
+id 318 use 0 "Belloq: Please, sit down before you fall down." 
+id 319 use 0 "Brody: The Bible speaks of the Ark leveling mountains and laying" 
+id 321 use 0 "[Toht prepares to torture Marion with a hot poker]
+Marion: Wait," 
+id 322 use 0 "Toht: Your fire is dying... here, why don't you tell me where th" 
+id 323 use 0 "[Marion and Belloq are both very drunk]
+Marion: [laughs] What is" 
+id 324 use 0 "Toht: Now... what shall we talk about?" 
+id 325 use 0 "Major Eaton: Doctor Jones, we've heard a lot about you.
+Indiana:" 
+id 326 use 0 "Indiana: This site also demonstrates one of the great dangers of" 
+id 327 use 0 "Indiana: I'm gonna blow up the Ark, Rene.
+Belloq: Your persisten" 
+id 328 use 0 "[the old man reveals writing on the back of the medallion, which" 
+id 329 use 0 "Messenger Pirate: [searching for Jones after the Germans board t" 
+id 330 use 0 "[last lines]
+Marion: Hey, what happened? You don't look very hap" 
+id 331 use 0 "Indiana: [Indy's first lines] This is it... This is where Forres" 
+id 332 use 0 "Omar: This were the old way, this says "six Kadan height - "
+Ind" 
+id 333 use 0 "Indiana: [to Satipo] Adios, Satipo..." 
+id 334 use 0 "[Looking over the destruction of the airfield]
+Dietrich: Get the" 
+id 335 use 0 "Dietrich: Doctor Jones, surely you don't think you can escape fr" 
+id 336 use 0 "Indiana: I knew the Germans had hired you, Sallah. You're the be" 
+id 337 use 0 "Sallah: [catches date and points to dead monkey] Bad dates." 
+id 338 use 0 "Toht: We meet again, Fraulein. You Americans, you're all the sam" 
+id 339 use 0 "[Army Intelligence officer describing Indiana Jones]
+Major Eaton" 
+id 340 use 0 "Belloq: So once again, Jones, what was briefly yours is now mine" 
+id 341 use 0 "Belloq: Next time, Indiana Jones, it will take more than childre" 
+id 342 use 0 "Sallah: Oh, my friends! I'm so pleased you're not dead!" 
+id 343 use 0 "Belloq: It's a transmitter, a radio for speaking to God." 
+id 344 use 0 "Belloq: Look at this. It's worthless - ten dollars from a vendor" 
+id 345 use 0 "Belloq: The girl was mine!
+Dietrich: She's of no use to us. Only" 
+id 346 use 0 "[first lines]
+Satipo: [picking up poison dart] The Hovitos are n" 
+id 347 use 0 "Toht: Shoot them. Shoot them both." 
+id 348 use 0 "[Katanga meets Indy, who is dirty and injured from the truck cha" 
+id 349 use 0 "[Belloq and the Nazis are walking and arguing]
+Belloq: I told yo" 
+id 350 use 0 "[Belloq and the Nazis are walking and talking some more]
+Belloq:" 
+id 351 use 0 "Ben Obi-Wan Kenobi: Use the Force, Luke." 
+id 352 use 0 "C-3PO: Just you reconsider playing that message for him!
+[R2 bee" 
+id 353 use 0 "Princess Leia Organa: General Kenobi. Years ago you served my fa" 
+id 354 use 0 "Ben Obi-Wan Kenobi: [after hiding from the stormtroopers on the " 
+id 355 use 0 "Luke Skywalker: She's rich.
+Han Solo: [interested] Rich?
+Luke Sk" 
+id 356 use 0 "Ben Obi-Wan Kenobi: Mos Eisley spaceport: You will never find a " 
+id 357 use 0 "Princess Leia Organa: It's not over yet.
+Han Solo: It is for me," 
+id 358 use 0 "General Tagge: What of the Rebellion? If the Rebels have obtaine" 
+id 359 use 0 "Han Solo: Han Solo. I'm captain of the Millennium Falcon. Chewie" 
+id 360 use 0 "[repeated line]
+C-3PO: We're doomed." 
+id 361 use 0 "Ben Obi-Wan Kenobi: The Force will be with you, always." 
+id 362 use 0 "[first title cards]
+Title card/crawl: A long time ago in a galax" 
+id 363 use 0 "Luke Skywalker: You don't believe in the Force, do you?
+Han Solo" 
+id 364 use 0 "Luke Skywalker: [about Princess Leia] They're gonna execute her!" 
+id 365 use 0 "[Ponda Baba gives Luke a rough shove and starts yelling at Luke " 
+id 366 use 0 "[repeated line]
+Princess Leia: Help me, Obi-Wan Kenobi; you're m" 
+id 367 use 0 "Luke Skywalker: How did my father die?
+Ben Obi-Wan Kenobi: A you" 
+id 368 use 0 "Ben Obi-Wan Kenobi: In my experience, there's no such thing as l" 
+id 369 use 0 "Princess Leia Organa: This is some rescue! You came in here, but" 
+id 371 use 0 "Han Solo: Great shot, kid, that was one in a million!" 
+id 372 use 0 "Aunt Beru: Where are you going?
+Luke: Looks like I'm going nowhe" 
+id 373 use 0 "Ben Obi-Wan Kenobi: For over a thousand generations, the Jedi kn" 
+id 374 use 0 "Princess Leia: Someone has to save our skins. Into the garbage c" 
+id 375 use 0 "Luke Skywalker: I don't understand how we got by those troops. I" 
+id 376 use 0 "Darth Vader: I sense something; a presence I've not felt since.." 
+id 377 use 0 "Luke Skywalker: You know, I think that R2 unit we bought may hav" 
+id 378 use 0 "Luke Skywalker: I'm Luke Skywalker. I'm here to rescue you.
+Prin" 
+id 379 use 0 "[Princess Leia gets her first look at the Millennium Falcon]
+Pri" 
+id 380 use 0 "Han Solo: Not a bad bit of rescuing, huh? You know, sometimes I " 
+id 381 use 0 "Darth Vader: [zeroing in on Luke's fighter] I have you now!
+[one" 
+id 382 use 0 "Luke Skywalker: [on first seeing the Millenium Falcon] What a pi" 
+id 383 use 0 "Princess Leia Organa: Your friend is quite a mercenary. I wonder" 
+id 384 use 0 "Officer Cass: Our scout ships have reached Dantooine. They found" 
+id 385 use 0 "Han Solo: Well, you can forget your troubles with those Imperial" 
+id 386 use 0 "Princess Leia Organa: They let us go. It was the only reason for" 
+id 387 use 0 "[a group of Stormtroopers have found the escape pod]
+Stormtroope" 
+id 388 use 0 "[Darth Vader enters Princess Leia's cell, followed by a sinister" 
+id 389 use 0 "Princess Leia Organa: [to Han] I knew there was more to you than" 
+id 390 use 0 "[Han is chasing some Stormtroopers]
+Princess Leia Organa: He cer" 
+id 391 use 0 "[C-3PO is tangled up in wires after a run-in with tie fighters]
+" 
+id 392 use 0 "Luke Skywalker: [to C3PO] All right, come on. And the red one. C" 
+id 393 use 0 "C-3PO: We've stopped. Wake up! Wake up!
+[R2D2 beeps]
+C-3PO: We'r" 
+id 394 use 0 "Han Solo: Where did you dig up that old fossil?
+Luke Skywalker: " 
+id 395 use 0 "Princess Leia Organa: Darth Vader. Only you could be so bold. Th" 
+id 396 use 0 "Han Solo: Sure hope the old man got that tractor beam out of com" 
+id 397 use 0 "Darth Vader: I have you now!" 
+id 398 use 0 "C-3PO: Now don't you forget this! Why I should stick my neck out" 
+id 399 use 0 "Luke Skywalker: [the red R2 unit blows its top] Uncle Owen!
+Uncl" 
+id 400 use 0 "Luke Skywalker: I'm not such a bad pilot myself." 
+id 401 use 0 "Dr. Ian Malcolm: God creates dinosaurs. God destroys dinosaurs. " 
+id 402 use 0 "John Hammond: All major theme parks have delays. When they opene" 
+id 403 use 0 "[repeated line]
+Ray Arnold: Hold on to your butts." 
+id 404 use 0 "Muldoon: [Just before he gets attacked by a raptor] Clever girl." 
+id 405 use 0 "Volunteer Boy: That doesn't look very scary. More like a six-foo" 
+id 406 use 0 "[last lines]
+Dr. Alan Grant: Hammond, after some consideration, " 
+id 407 use 0 "Dr. Alan Grant: You got any kids?
+Dr. Ian Malcolm: Me? Oh, hell " 
+id 408 use 0 "Dr. Ellie Sattler: So, what are you thinking?
+Dr. Alan Grant: We" 
+id 409 use 0 "Dr. Ian Malcolm: God help us, we're in the hands of engineers." 
+id 410 use 0 "Dr. Ellie Sattler: [after finding Malcolm with a broken leg] Sho" 
+id 411 use 0 "Dr. Ian Malcolm: Gee, the lack of humility before nature that's " 
+id 412 use 0 "Dr. Alan Grant: [about the velociraptors] What kind of metabolis" 
+id 413 use 0 "Dr. Ian Malcolm: [to the security camera in the tour car, after " 
+id 414 use 0 "Ray Arnold: [alarms start going off in the control room] Fences " 
+id 415 use 0 "Dr. Ian Malcolm: [seeing the dinosaurs for the first time] You d" 
+id 416 use 0 "[Dodgson is meeting Nedry at a restaurant in Costa Rica]
+Dennis " 
+id 417 use 0 "Dr. Alan Grant: T-Rex doesn't want to be fed. He wants to hunt. " 
+id 418 use 0 "Tim: That means they only eat vegetables, but for you, I think t" 
+id 419 use 0 "Dr. Ian Malcolm: [watching the T-Rex breaking through the deacti" 
+id 420 use 0 "John Hammond: Dr. Grant, my dear Dr. Sattler... Welcome to Juras" 
+id 421 use 0 "[repeated line]
+John Hammond: We spared no expense." 
+id 422 use 0 "Dr. Ian Malcolm: There. Look at this. See? See? I'm right again." 
+id 423 use 0 "John Hammond: [as they gather around a baby dinosaur hatching fr" 
+id 424 use 0 "Dr. Ian Malcolm: [while being chased by the T-Rex] Must go faste" 
+id 425 use 0 "John Hammond: ...And there's no doubt; our attractions will driv" 
+id 426 use 0 "Dr. Ian Malcolm: [as they pass through the gigantic park gates] " 
+id 427 use 0 "Dr. Alan Grant: [finding egg shells] Oh my God. Do you know what" 
+id 428 use 0 "Tim: What do you call a blind dinosaur?
+Dr. Alan Grant: I don't " 
+id 430 use 0 "Tim: [after climbing down the tree to escape the falling car] I " 
+id 431 use 0 "Muldoon: What about the lysine contingency? We could put that in" 
+id 432 use 0 "Tim: [after the tour car falls upside down on them at the bottom" 
+id 433 use 0 "Ray Arnold: [trying to bring the system back on-line] Access mai" 
+id 434 use 0 "Dr. Alan Grant: [watching Gennaro jump out of the tour car and s" 
+id 435 use 0 "Dr. Ian Malcolm: [as they escape the T-Rex chasing after them in" 
+id 436 use 0 "Lex: He's gonna eat the goat?
+Tim: Excellent!
+Donald Gennaro: Wh" 
+id 437 use 0 "Dr. Alan Grant: [Dr. Grant gets back in the car after checking w" 
+id 438 use 0 "John Hammond: [Ellie is going out to the maintenance shed to swi" 
+id 439 use 0 "Dr. Alan Grant: [after Tim has survived being electrocuted] Big " 
+id 440 use 0 "Dr. Alan Grant: [Grant throws a branch at the inert perimeter fe" 
+id 441 use 0 "[Ellie and Muldoon find Malcolm injured at the scene of the T-Re" 
+id 442 use 0 "Dr. Ian Malcolm: [looking at a huge mound of dinosaur faeces] Th" 
+id 443 use 0 "Dr. Ian Malcolm: Anybody hear that? It's a, um... It's an impact" 
+id 444 use 0 "Dr. Alan Grant: [Dr. Grant enters his mobile trailer home and se" 
+id 445 use 0 "Dr. Alan Grant: Kids! You want to have one of those?
+Dr. Ellie S" 
+id 446 use 0 "Dr. Alan Grant: [All of a sudden their electric car stops] What " 
+id 447 use 0 "Dr. Ellie Sattler: Doctor Grant's not machine compatible." 
+id 448 use 0 "Dennis Nedry: [scrambling on the ground] My glasses...
+[getting " 
+id 449 use 0 "John Hammond: You'll have to get used to Dr. Malcolm, he suffers" 
+id 450 use 0 "Dr. Alan Grant: [seeing the dinosaurs for the first time] How fa" 
+id 451 use 0 "Donald Gennaro: Let's get something straight, John, this is not " 
+id 452 use 0 "[They're feeding leafy branches to a docile Brachiosaurus]
+Lex: " 
+id 453 use 0 "Tim: I threw up.
+Dr. Alan Grant: Oh, well that's OK. Give me you" 
+id 454 use 0 "Donald Gennaro: [Tim pops up wearing a pair of night vision gogg" 
+id 455 use 0 "Dr. Alan Grant: [calling Hammond on the phone] Mr. Hammond, the " 
+id 456 use 0 "Lex: [Grant and the kids are climbing the perimeter fence] Timmy" 
+id 457 use 0 "Muldoon: [seeing that the raptors escaped] The shut down must've" 
+id 458 use 0 "Dr. Ian Malcolm: Dr. Sattler, Dr. Grant, you've heard of chaos t" 
+id 459 use 0 "John Hammond: [to Gennaro, referring to Malcolm] I bring the sci" 
+id 460 use 0 "Dr. Alan Grant: [with Lex in front of the T-Rex] Don't move! He " 
+id 461 use 0 "John Hammond: [Jurassic Park] Why didn't I build it in Orlando?" 
+id 462 use 0 "Dr. Alan Grant: [Hammond's sudden arrival via helicopter threate" 
+id 463 use 0 "Lex: I'm a hacker!
+Tim: That's what I said: you're a nerd.
+Lex: " 
+id 464 use 0 "Muldoon: Shoot her! Shoot her!" 
+id 465 use 0 "John Hammond: You know the first attraction I ever built when I " 
+id 466 use 0 "Dr. Alan Grant: [stunned after seeing the dinosaurs for the firs" 
+id 467 use 0 "Dr. Alan Grant: [holding a newly-hatched Dinosaur in his hands] " 
+id 468 use 0 "Ray Arnold: [taking over Dennis Nedry's terminal which is covere" 
+id 469 use 0 "John Hammond: Dennis, our lives are in your hands and you have b" 
+id 470 use 0 "Dennis Nedry: [has tried to get rid of the Dilophosaurus by thro" 
+id 471 use 0 "Dr. Ian Malcolm: [Malcolm waves a flare, to get the T-Rex's atte" 
+id 472 use 0 "Dr. Alan Grant: Its just like climbing down from a treehouse. Di" 
+id 473 use 0 "John Hammond: [Lex and Tim] They'll be fine. Who better to get t" 
+id 474 use 0 "Dr. Alan Grant: [the Triceratops] Ellie, this one was always my " 
+id 475 use 0 "Dr. Alan Grant: [looking at a dinosaur herd] Tim. Tim, can you t" 
+id 476 use 0 "Dr. Ian Malcolm: God creates dinosaur. God destroys dinosaur. Go" 
+id 477 use 0 "John Hammond: When we have control again...
+Dr. Ellie Sattler: Y" 
+id 478 use 0 "Dr. Ellie Sattler: We can make it if we run.
+Muldoon: No, we can" 
+id 479 use 0 "Lex: [a Brachiosaur eats from the tree Grant, Lex and Tim are sl" 
+id 480 use 0 "Lex: What if the dinosaurs come back while we're all asleep?
+Dr." 
+id 481 use 0 "John Hammond: Robert, I... I wonder if perhaps you would be good" 
+id 482 use 0 "Ray Arnold: We have all the problems of a major theme park and a" 
+id 483 use 0 "Dr. Ian Malcolm: [after the T-Rex failed to appear for the tour " 
+id 484 use 0 "Muldoon: [the tour group have just left they're cars right in th" 
+id 485 use 0 "Tim: [Tim hears a distant rumble] You feel that?
+Donald Gennaro:" 
+id 486 use 0 "Lex: [after being sneezed on by a Brachiosaur] Yuck!
+Tim: Oh, gr" 
+id 487 use 0 "Lex: [the T-Rex has just killed a Gallimimus] I want to go now.
+" 
+id 488 use 0 "Volunteer #1: This new program's incredible. A few more years de" 
+id 489 use 0 "Lex: [Ellie] She said I should ride with you
+[Grant]
+Lex: becaus" 
+id 490 use 0 "Dr. Ian Malcolm: [about Ellie] She's, uh... tenacious.
+Dr. Alan " 
+id 491 use 0 "Dr. Alan Grant: [seeing the Brachiosaur for the first time] Uh.." 
+id 492 use 0 "Dennis Nedry: Don't get cheap on me, Dodgson. That was Hammond's" 
+id 493 use 0 "Dr. Ian Malcolm: Come on, we gotta get out of here! Now! Now! Ri" 
+id 494 use 0 "John Hammond: We've made living biological attractions so astoun" 
+id 495 use 0 "Donald Gennaro: [pointing at the scientists in the lab] Are thes" 
+id 496 use 0 "Lex: What are you and Ellie gonna do now if you don't have to pi" 
+id 497 use 0 "Donald Gennaro: And we can charge anything we want, 2,000 a day," 
+id 498 use 0 "Dr. Alan Grant: What kind of park is this?
+John Hammond: It's ri" 
+id 499 use 0 "Donald Gennaro: [seeing the dinosaurs for the first time] We're " 
+id 500 use 0 "Dennis Nedry: [Nedry walks into a tree branch] Oh, Jesus Christ!" 
+id 501 use 0 "Lex: [Brachiosaurs hearing Grant imitate they're singing look up" 
+id 502 use 0 "Jurassic Park Tour Voice: Welcome to Jurassic Park." 
+id 503 use 0 "Lex: I like cows.
+[to a Brachiosaur]
+Lex: Come on, girl. I'm her" 
+id 504 use 0 "Dr. Ellie Sattler: I can't wait any longer. Something went wrong" 
+id 505 use 0 "Dr. Ellie Sattler: [after entering the maintenance shed] Mr Arno" 
+id 506 use 0 "Dr. Alan Grant: [loading a rifle] OK, it's just the two Raptors," 
+id 507 use 0 "Dr. Ellie Sattler: [after Alan's given a very bloody description" 
+id 508 use 0 "Dr. Ian Malcolm: [Dr. Ellie Sattler has dug through a pile of di" 
+id 509 use 0 "Lex: He left us! He left us!
+Dr. Alan Grant: But that's *not* wh" 
+id 510 use 0 "Muldoon: They should all be destroyed." 
+id 511 use 0 "Dr. Ellie Sattler: [after Ellie has switched on the breakers in " 
+id 512 use 0 "Muldoon: [Muldoon and Ellie have arrived at the site of the T-Re" 
+id 513 use 0 "Dr. Alan Grant: [while climbing a tree to rescue Tim stuck at th" 
+id 514 use 0 "Dr. Ellie Sattler: But you can't think your way through this, Jo" 
+id 515 use 0 "Dr. Ellie Sattler: So...
+[tastes some of the ice cream on the ta" 
+id 516 use 0 "Dr. Ellie Sattler: [Ellie walks into a wall of the maintenance s" 
+id 517 use 0 "Dr. Alan Grant: I hate computers.
+Dr. Ellie Sattler: The feeling" 
+id 518 use 0 "Juanito Rostagno: Grant's like me. He's a digger." 
+id 519 use 0 "Dr. Ellie Sattler: [hears the T-Rex's roar in the distance] I th" 
+id 520 use 0 "Muldoon: [to Hammond, Arnold and Nedry] Quiet, all of you!
+[the " 
+id 521 use 0 "Donald Gennaro: [looking at the Jurassic Park technicians] This " 
+id 522 use 0 "Tim: I read your book!" 
+id 523 use 0 "Donald Gennaro: I had to promise to conduct a very thorough on-s" 
+id 524 use 0 "John Hammond: So much for our first tour: two no-shows and one s" 
+id 525 use 0 "Dr. Alan Grant: [to Malcolm, about the T-Rex] Keep absolutely st" 
+id 526 use 0 "Ray Arnold: Um... It's OK.
+[looking at one of the computers in t" 
+id 527 use 0 "John Hammond: Now Ellie, you can't throw the main switch by hand" 
+id 528 use 0 "John Hammond: [walking into the Visitor's Centre for the first t" 
+id 529 use 0 "John Hammond: Well, we clocked the T-Rex at 32 mph
+Dr. Ellie Sat" 
+id 530 use 0 "[first lines]
+Worker in Raptor Pen: Everybody, heads up! Heads u" 
+id 531 use 0 "Ray Arnold: The boat for the mainland will be leaving at 19.00. " 
+id 532 use 296 "Tim: Look at all the blood!" 
+id 533 use 0 "Tim: [a Brachiosaur] It looks like it has a cold.
+Dr. Alan Grant" 
+id 534 use 0 "Dr. Alan Grant: [Grant waves a flare, trying to get the attentio" 
+id 535 use 0 "Lex: [the T-Rex is roaring in the distance] Are you hearing this" 
+id 536 use 0 "Lex: [Lex switched on a flashlight, attracting the unwanted atte" 
+id 537 use 0 "Lex: Timmy!
+Dr. Alan Grant: Tim!
+[the T-Rex tries to push the ca" 
+id 538 use 0 "Dr. Alan Grant: Lex, Lex you're choking me! Grab the wire! Grab " 
+id 539 use 0 "Dennis Nedry: I should have been there by now. My God!
+[Nedry cr" 
+id 540 use 0 "John Hammond: [the park's first tour has had to be cut short bec" 
+id 541 use 0 "[Han answers the intercom after comandeering an attack station]
+" 
+id 542 use 0 "Stormtrooper: Let me see your identification.
+Ben Obi-Wan Kenobi" 
+id 543 use 0 "Han Solo: Hokey religions and ancient weapons are no match for a" 
+id 544 use 0 "Darth Vader: The Force is strong with this one." 
+id 545 use 0 "Han Solo: Wonderful girl. Either I'm going to kill her or I'm be" 
+id 546 use 0 "C-3PO: We seem to be made to suffer. It's our lot in life." 
+id 547 use 0 "Princess Leia Organa: Aren't you a little short for a stormtroop" 
+id 548 use 0 "Obi-Wan: I felt a great disturbance in the Force, as if millions" 
+id 549 use 0 "Han Solo: Look, Your Worshipfulness, let's get one thing straigh" 
+id 550 use 0 "Darth Vader: Your powers are weak, old man.
+Ben Obi-Wan Kenobi: " 
+id 551 use 0 "[approaching the Death Star]
+Luke Skywalker: I have a very bad f" 
+id 552 use 0 "[R2-D2 and Chewbacca are playing the holographic game aboard the" 
+id 553 use 0 "Darth Vader: I've been waiting for you, Obi-Wan. We meet again, " 
+id 554 use 0 "Ben Obi-Wan Kenobi: The Force is what gives a Jedi his power. It" 
+id 555 use 0 "Luke Skywalker: [griping about Tatooine] If there's a bright cen" 
+id 556 use 0 "[repeated line]
+C-3PO: [to R2-D2] This is all your fault." 
+id 557 use 0 "Han Solo: Get in there, you big furry oaf! I don't care what you" 
+id 558 use 0 "Ben Obi-Wan Kenobi: That's no moon. It's a space station." 
+id 559 use 0 "Darth Vader: He is here.
+Governor Tarkin: Obi-Wan Kenobi? What m" 
+id 560 use 0 "Princess Leia Organa: I don't know who you are or where you came" 
+id 561 use 0 "C-3PO: I would much rather have gone with Master Luke than stay " 
+id 562 use 0 "General Dodonna: The battle station is heavily shielded and carr" 
+id 563 use 0 "Uncle Owen: [about C-3PO and R5-D4] Luke! Take these two over to" 
+id 564 use 0 "Ben Obi-Wan Kenobi: [to R2-D2] Hello there.
+[R2 beeps]
+Ben Obi-W" 
+id 565 use 0 "C-3PO: Is there anything I can do?
+Luke Skywalker: Not unless yo" 
+id 566 use 0 "Princess Leia Organa: No! Alderaan is peaceful! We have no weapo" 
+id 567 use 0 "C-3PO: Don't call me a mindless philosopher, you overweight glob" 
+id 568 use 0 "Darth Vader: This will be a day long remembered. It has seen the" 
+id 569 use 0 "Luke Skywalker: No, my father didn't fight in the Clone Wars. He" 
+id 570 use 0 "Ben Obi-Wan Kenobi: [as Luke wakes up after being knocked out by" 
+id 571 use 0 "Commander #1: We've analyzed their attack, sir, and there is a d" 
+id 572 use 0 "Ben Obi-Wan Kenobi: I have something here for you. Your father w" 
+id 573 use 0 "[Two stormtroopers are posted near the tractor beam power termin" 
+id 574 use 0 "Greedo: [In Huttese; subtitled] Going somewhere, Solo?
+Han Solo:" 
+id 576 use 0 "C-3PO: Where could they be?
+[R2 beeps at him]
+C-3PO: Use the com" 
+id 577 use 0 "[referring to Obi Wan]
+Governor Tarkin: If you're right, he must" 
+id 578 use 0 "Han Solo: I don't what we're gonna do now. Even if I could take " 
+id 579 use 0 "Han Solo: This is *not* gonna work.
+Luke Skywalker: Why didn't y" 
+id 580 use 0 "[Luke blows up his first TIE fighter]
+Luke Skywalker: Got him! I" 
+id 581 use 0 "[Han, Luke, Leia and Chewie land in the trash compactor]
+Han Sol" 
+id 582 use 0 "[Luke is practicing lightsaber drills against a remote]
+Han Solo" 
+id 583 use 0 "Han Solo: Stay sharp. There's two more coming in. They're gonna " 
+id 584 use 0 "Greedo: [pointing a blaster at Han]
+[Huttese]
+Greedo: Going some" 
+id 585 use 0 "Luke Skywalker: There's something alive in here.
+Han Solo: That'" 
+id 586 use 0 "Han Solo: Jabba, you're a wonderful human being." 
+id 587 use 0 "Luke Skywalker: Boy, it's lucky you have these compartments.
+Han" 
+id 588 use 0 "Luke Skywalker: So. You got your reward and you're just leaving," 
+id 589 use 0 "Princess Leia Organa: Governor Tarkin, I should have expected to" 
+id 590 use 0 "Luke Skywalker: Come on. Why don't you take a look around? You k" 
+id 591 use 0 "Darth Vader: [addressing the Tantive IV's captain, whom he is in" 
+id 592 use 0 "[X-wings are approaching Death Star]
+Wedge Antilles (Red 2): Loo" 
+id 593 use 0 "Luke Skywalker: You know, between his howling and your blasting " 
+id 594 use 0 "Luke Skywalker: Hey Biggs, I told you I'd make it someday.
+Biggs" 
+id 595 use 0 "C-3PO: Master Luke, sir. Pardon me for asking, but what should R" 
+id 596 use 0 "Governor Tarkin: Perhaps she would respond to an alternative for" 
+id 597 use 0 "[last lines]
+C-3PO: You must repair him! Sir, if any of my circu" 
+id 598 use 0 "Ben Obi-Wan Kenobi: Your eyes can deceive you; don't trust them." 
+id 599 use 0 "Uncle Owen: Luke! Take these two over to the garage will ya? I w" 
+id 600 use 0 "Governor Tarkin: The Imperial Senate will no longer be of any co" 
+id 601 use 0 "Wuher: Hey! We don't serve their kind here.
+Luke Skywalker: What" 
+id 602 use 0 "Imperial Officer: Where are you taking this... thing?" 
+id 603 use 0 "Imperial Officer: [seeing Luke and Han disguised as Stormtrooper" 
+id 604 use 0 "General Tagge: Until this battle station is fully operational, w" 
+id 605 use 0 "Gold Two: [the Y-wings are running the gauntlet toward the Death" 
+id 606 use 0 "C-3PO: That malfunctioning little twirp, this is all his fault." 
+id 607 use 0 "Han Solo: What kept you?
+Princess Leia: We, uh, ran into some ol" 
+id 608 use 0 "[a group of Stormtroopers are chasing Han Solo and Chewbacca dow" 
+id 609 use 0 "[Luke and Leia are about to swing over the hole - Leia gives Luk" 
+id 610 use 0 "Princess Leia Organa: Looks like you've managed to cut off our o" 
+id 611 use 0 "[first lines]
+C-3PO: Did you hear that? They shut down the main " 
+id 612 use 0 "C-3PO: There'll be no escape for the princess this time." 
+id 613 use 0 "Han Solo: [after Leia blasts a vent] What the hell are you doing" 
+id 614 use 0 "Han Solo: Can't get out that way.
+Princess Leia Organa: Looks li" 
+id 615 use 0 "C-3PO: R2D2 where are you?" 
+id 616 use 0 "Luke Skywalker: You know, I did feel something. I could almost s" 
+id 617 use 0 "[Han Solo arrives at Docking Bay 94 and sees a familiar face]
+Ja" 
+id 618 use 0 "Luke Skywalker: [to Leia] Carrie!" 
+id 619 use 0 "Red Six: I got a problem here. My converter's running wild.
+Bigg" 
+id 620 use 0 "General Willard: You're safe. When we heard about Alderaan, we f" 
+id 621 use 0 "C-3PO: [translating for R2] He says he's found the main control " 
+id 622 use 0 "Uncle Owen: Have you seen Luke this morning?
+Aunt Beru: He said " 
+id 623 use 0 "Luke Skywalker: What are you doing hiding back there?
+C-3PO: It " 
+id 624 use 0 "C-3PO: I've just about had enough of you. Go that way. You'll be" 
+id 625 use 0 "Governor Tarkin: Are they away?
+Darth Vader: They've just made t" 
+id 626 use 0 "[Attack warning alarms are sounding throughout the Death Star an" 
+id 627 use 0 "[Vader has reached the hangar bay where his personal Tie Advance" 
+id 628 use 0 "C-3PO: And I am C-3PO, human-cyborg relations. And this is my co" 
+id 629 use 0 "Princess Leia Organa: [as the ships approach] Here they come.
+Lu" 
+id 630 use 0 "C-3PO: [seeing a metalic transport craft shining in the distance" 
+id 631 use 0 "[Luke, Obi-Wan, and the droids find the Sandcrawler that the dro" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 0 use 0 "Marion: You're not the man I knew ten years ago.
+Indiana: It's n" 
+id 89 use 239 "
+[Han fires again, the second fighter collides with Vader's, sen" 
+id 134 use 240 "cosystem? And therefore, how could you ever assume that you can " 
+id 264 use 241 "ing this so it will be the last time: *Where* is the rebel base?" 
+id 184 use 242 "mmond: John Hammond. And I'm delighted to meet you finally in pe" 
+id 229 use 243 "ker in Raptor Pen: Everybody, heads up! Heads up! Keep clear! Ke" 
+id 60 use 244 "to you in person, but my ship has fallen under attack, and I'm a" 
+id 152 use 245 " precautions. There's no unauthorized breeding in Jurassic Park." 
+id 128 use 246 " but your scientists were so preoccupied with whether or not the" 
+id 56 use 247 "ised to find you squeamish. That is not your reputation. Anyway," 
+id 42 use 248 "ana: About seventy-two inches.
+Omar: Wait!
+[turns medallion over" 
+id 37 use 249 "!
+Indiana: Balloq's staff is too long.
+Indiana, Sallah: They're " 
+id 218 use 250 "what *I'm* gonna do." 
+id 191 use 251 " Alan Grant: What kind of park is this?
+John Hammond: It's right" 
+id 199 use 252 "everything's my problem.
+John Hammond: I will not get drawn into" 
+id 135 use 253 "ntrol it? I mean, you have plants in this building that are pois" 
+id 33 use 254 "ets that Moses brought down out of Mount Horeb and smashed, if y" 
+id 83 use 255 "ll, I stumbled across a recording while I was cleaning him. He s" 
+id 257 use 256 "ater than half the star fleet. Its defenses are designed around " 
+id 63 use 257 "cant next to the power of the Force.
+Admiral Motti: Don't try to" 
+id 64 use 258 "orce.
+Admiral Motti: Don't try to frighten us with your sorcerer" 
+id 196 use 259 "d raptors?" 
+id 198 use 260 "rry about your financial problems, Dennis, I really am, but they" 
+id 185 use 261 "und the kitchen. I'll come right to the point. I like you, both " 
+id 174 use 262 "e to get used to Dr. Malcolm, he suffers from a deplorable exces" 
+id 151 use 263 "reed in the wild. Population control is one of our security prec" 
+id 49 use 264 "expert on the occult, and how does one say it? Obtainer of rare " 
+id 79 use 265 "n. He has too much of his father in him.
+Uncle Owen: That's what" 
+id 237 use 266 "tly all right now. We're fine. We're all fine here now, thank yo" 
+id 271 use 267 "i: [as Luke wakes up after being knocked out by Tuskan Raiders] " 
+id 137 use 268 "they'll defend themselves, violently if necessary.
+John Hammond:" 
+id 55 use 269 " help us.
+Dietrich: My feeling exactly. She was in possession of" 
+id 170 use 270 "trocuted and Lex and Tim scream]
+Lex: [Grant smiles at Lex and T" 
+id 4 use 271 "he does! She's very smart." 
+id 206 use 272 "leg from the goat lands on the roof of the car]
+Donald Gennaro: " 
+id 50 use 273 "r in the street. But I take it, I bury it in the sand for a thou" 
+id 9 use 274 "rews thought." 
+id 105 use 275 "itor! Take her away!" 
+id 189 use 276 "ya look like a petting zoo. And there's no doubt, our attraction" 
+id 140 use 277 ": [laughing] I don't believe it. I don't believe it! You're mean" 
+id 254 use 278 "rgana: I don't know who you are or where you came from, but from" 
+id 146 use 279 "]
+John Hammond: We spared no expense." 
+id 225 use 280 "At the other end of the compound. Three minutes, and I can have " 
+id 139 use 281 "k into the mix together. How can we possibly have the slightest " 
+id 90 use 282 "Han Solo: You're all clear, kid, now let's *blow* this thing and" 
+id 34 use 283 "rk. When they settled in Canaan, they put the Ark in a place cal" 
+id 102 use 284 "lo: Where did you dig up that old fossil?
+Luke Skywalker: Ben is" 
+id 172 use 285 "uldoon find Malcolm injured at the scene of the T-Rex attack]
+Dr" 
+id 70 use 286 "ut Princess Leia] They're gonna execute her! Look, a few minutes" 
+id 182 use 287 " a rock star." 
+id 275 use 288 "enobi: I haven't gone by the name of Obi-Wan since... oh, before" 
+id 429 use 291 "Lex: It's a UNIX system! I know this!" 
+id 320 use 292 "Marion: What do you want?
+Toht: Ah, the same thing your friend D" 
+id 370 use 293 "[as the garbage compactor closes in]
+Han Solo: One thing's for s" 
+id 575 use 294 "Ben Obi-Wan Kenobi: There was nothing you could have done, Luke," 
+id 303 use 295 "Satipo: Let us hurry. There is nothing to fear here.
+Indiana: Th" 
