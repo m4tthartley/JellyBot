@@ -322,6 +322,10 @@ int main () {
 
 	int lastMessageIndex = 0;
 
+	int messageHours[] = {
+		9, 12, 15, 18, 21, 0,
+	};
+
 	while (true) {
 		time_t rawTime;
 		time(&rawTime);
@@ -336,11 +340,20 @@ int main () {
 		int hour = getLocalHour();
 		int minute = getLocalMin();
 
+		printf("Hour %i \n", hour);
+
 		if (hour != hourOfLastMessage) {
 			hourOfLastMessage = hour;
 
 			// Only run if it's not night time, last is at midnight, first is at 9am
-			if (hour >= 9 || hour == 0) {
+			bool isItTime = false;
+			fiz (arraySize(messageHours)) {
+				if (hour == messageHours[i]) {
+					isItTime = true;
+					break;
+				}
+			}
+			if (isItTime/*hour >= 9 || hour == 0*/) {
 				loadMessageData(&state);
 
 				sendRandomMessage(&state);

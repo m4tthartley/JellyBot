@@ -1,5 +1,5 @@
 messageTableSize 632
-currentIncrement 296
+currentIncrement 308
 
 id 281 use 0 "Marion: You're not the man I knew ten years ago.
 Indiana: It's n" 
@@ -49,7 +49,7 @@ Indiana: W"
 id 308 use 0 "Brody: However, an Egyptian pharaoh...
 Indiana: Shishak.
 Brody: " 
-id 309 use 0 "Belloq: How odd that it should end this way for us after so many" 
+id 309 use 308 "Belloq: How odd that it should end this way for us after so many" 
 id 310 use 0 "Marion: Well, Jones, at least you haven't forgotten how to show " 
 id 311 use 0 "Belloq: Dr. Jones. Again we see there is nothing you can possess" 
 id 312 use 0 "Toht: Good evening, Fraulein.
@@ -60,7 +60,6 @@ id 314 use 0 "[looking at an old picture of the Ark]
 Colonel Musgrove: Now, wh" 
 id 315 use 0 "Katanga: Jones is dead. I killed him. He was of no use to us. Th" 
 id 316 use 0 "Indiana: Too bad the Hovitos don't know you the way I do, Belloq" 
-id 317 use 0 "1st Mechanic: [to Indy, in German] Hey, thin man! Come here! Com" 
 id 318 use 0 "Belloq: Please, sit down before you fall down." 
 id 319 use 0 "Brody: The Bible speaks of the Ark leveling mountains and laying" 
 id 321 use 0 "[Toht prepares to torture Marion with a hot poker]
@@ -125,7 +124,6 @@ id 362 use 0 "[first title cards]
 Title card/crawl: A long time ago in a galax" 
 id 363 use 0 "Luke Skywalker: You don't believe in the Force, do you?
 Han Solo" 
-id 364 use 0 "Luke Skywalker: [about Princess Leia] They're gonna execute her!" 
 id 365 use 0 "[Ponda Baba gives Luke a rough shove and starts yelling at Luke " 
 id 366 use 0 "[repeated line]
 Princess Leia: Help me, Obi-Wan Kenobi; you're m" 
@@ -232,7 +230,6 @@ id 446 use 0 "Dr. Alan Grant: [All of a sudden their electric car stops] What "
 id 447 use 0 "Dr. Ellie Sattler: Doctor Grant's not machine compatible." 
 id 448 use 0 "Dennis Nedry: [scrambling on the ground] My glasses...
 [getting " 
-id 449 use 0 "John Hammond: You'll have to get used to Dr. Malcolm, he suffers" 
 id 450 use 0 "Dr. Alan Grant: [seeing the dinosaurs for the first time] How fa" 
 id 451 use 0 "Donald Gennaro: Let's get something straight, John, this is not " 
 id 452 use 0 "[They're feeding leafy branches to a docile Brachiosaurus]
@@ -245,7 +242,6 @@ id 456 use 0 "Lex: [Grant and the kids are climbing the perimeter fence] Timmy"
 id 457 use 0 "Muldoon: [seeing that the raptors escaped] The shut down must've" 
 id 458 use 0 "Dr. Ian Malcolm: Dr. Sattler, Dr. Grant, you've heard of chaos t" 
 id 459 use 0 "John Hammond: [to Gennaro, referring to Malcolm] I bring the sci" 
-id 460 use 0 "Dr. Alan Grant: [with Lex in front of the T-Rex] Don't move! He " 
 id 461 use 0 "John Hammond: [Jurassic Park] Why didn't I build it in Orlando?" 
 id 462 use 0 "Dr. Alan Grant: [Hammond's sudden arrival via helicopter threate" 
 id 463 use 0 "Lex: I'm a hacker!
@@ -261,7 +257,6 @@ id 470 use 0 "Dennis Nedry: [has tried to get rid of the Dilophosaurus by thro"
 id 471 use 0 "Dr. Ian Malcolm: [Malcolm waves a flare, to get the T-Rex's atte" 
 id 472 use 0 "Dr. Alan Grant: Its just like climbing down from a treehouse. Di" 
 id 473 use 0 "John Hammond: [Lex and Tim] They'll be fine. Who better to get t" 
-id 474 use 0 "Dr. Alan Grant: [the Triceratops] Ellie, this one was always my " 
 id 475 use 0 "Dr. Alan Grant: [looking at a dinosaur herd] Tim. Tim, can you t" 
 id 476 use 0 "Dr. Ian Malcolm: God creates dinosaur. God destroys dinosaur. Go" 
 id 477 use 0 "John Hammond: When we have control again...
@@ -269,8 +264,6 @@ Dr. Ellie Sattler: Y"
 id 478 use 0 "Dr. Ellie Sattler: We can make it if we run.
 Muldoon: No, we can" 
 id 479 use 0 "Lex: [a Brachiosaur eats from the tree Grant, Lex and Tim are sl" 
-id 480 use 0 "Lex: What if the dinosaurs come back while we're all asleep?
-Dr." 
 id 481 use 0 "John Hammond: Robert, I... I wonder if perhaps you would be good" 
 id 482 use 0 "Ray Arnold: We have all the problems of a major theme park and a" 
 id 483 use 0 "Dr. Ian Malcolm: [after the T-Rex failed to appear for the tour " 
@@ -285,8 +278,6 @@ id 488 use 0 "Volunteer #1: This new program's incredible. A few more years de"
 id 489 use 0 "Lex: [Ellie] She said I should ride with you
 [Grant]
 Lex: becaus" 
-id 490 use 0 "Dr. Ian Malcolm: [about Ellie] She's, uh... tenacious.
-Dr. Alan " 
 id 491 use 0 "Dr. Alan Grant: [seeing the Brachiosaur for the first time] Uh.." 
 id 492 use 0 "Dennis Nedry: Don't get cheap on me, Dodgson. That was Hammond's" 
 id 493 use 0 "Dr. Ian Malcolm: Come on, we gotta get out of here! Now! Now! Ri" 
@@ -321,7 +312,6 @@ id 516 use 0 "Dr. Ellie Sattler: [Ellie walks into a wall of the maintenance s"
 id 517 use 0 "Dr. Alan Grant: I hate computers.
 Dr. Ellie Sattler: The feeling" 
 id 518 use 0 "Juanito Rostagno: Grant's like me. He's a digger." 
-id 519 use 0 "Dr. Ellie Sattler: [hears the T-Rex's roar in the distance] I th" 
 id 520 use 0 "Muldoon: [to Hammond, Arnold and Nedry] Quiet, all of you!
 [the " 
 id 521 use 0 "Donald Gennaro: [looking at the Jurassic Park technicians] This " 
@@ -338,7 +328,6 @@ Dr. Ellie Sat"
 id 530 use 0 "[first lines]
 Worker in Raptor Pen: Everybody, heads up! Heads u" 
 id 531 use 0 "Ray Arnold: The boat for the mainland will be leaving at 19.00. " 
-id 532 use 296 "Tim: Look at all the blood!" 
 id 533 use 0 "Tim: [a Brachiosaur] It looks like it has a cold.
 Dr. Alan Grant" 
 id 534 use 0 "Dr. Alan Grant: [Grant waves a flare, trying to get the attentio" 
@@ -376,10 +365,8 @@ id 557 use 0 "Han Solo: Get in there, you big furry oaf! I don't care what you"
 id 558 use 0 "Ben Obi-Wan Kenobi: That's no moon. It's a space station." 
 id 559 use 0 "Darth Vader: He is here.
 Governor Tarkin: Obi-Wan Kenobi? What m" 
-id 560 use 0 "Princess Leia Organa: I don't know who you are or where you came" 
 id 561 use 0 "C-3PO: I would much rather have gone with Master Luke than stay " 
 id 562 use 0 "General Dodonna: The battle station is heavily shielded and carr" 
-id 563 use 0 "Uncle Owen: [about C-3PO and R5-D4] Luke! Take these two over to" 
 id 564 use 0 "Ben Obi-Wan Kenobi: [to R2-D2] Hello there.
 [R2 beeps]
 Ben Obi-W" 
@@ -434,8 +421,6 @@ C-3PO: You must repair him! Sir, if any of my circu"
 id 598 use 0 "Ben Obi-Wan Kenobi: Your eyes can deceive you; don't trust them." 
 id 599 use 0 "Uncle Owen: Luke! Take these two over to the garage will ya? I w" 
 id 600 use 0 "Governor Tarkin: The Imperial Senate will no longer be of any co" 
-id 601 use 0 "Wuher: Hey! We don't serve their kind here.
-Luke Skywalker: What" 
 id 602 use 0 "Imperial Officer: Where are you taking this... thing?" 
 id 603 use 0 "Imperial Officer: [seeing Luke and Han disguised as Stormtrooper" 
 id 604 use 0 "General Tagge: Until this battle station is fully operational, w" 
@@ -1012,3 +997,18 @@ Han Solo: One thing's for s"
 id 575 use 294 "Ben Obi-Wan Kenobi: There was nothing you could have done, Luke," 
 id 303 use 295 "Satipo: Let us hurry. There is nothing to fear here.
 Indiana: Th" 
+id 532 use 296 "Tim: Look at all the blood!" 
+id 490 use 297 "Dr. Ian Malcolm: [about Ellie] She's, uh... tenacious.
+Dr. Alan " 
+id 519 use 298 "Dr. Ellie Sattler: [hears the T-Rex's roar in the distance] I th" 
+id 460 use 299 "Dr. Alan Grant: [with Lex in front of the T-Rex] Don't move! He " 
+id 317 use 300 "1st Mechanic: [to Indy, in German] Hey, thin man! Come here! Com" 
+id 474 use 301 "Dr. Alan Grant: [the Triceratops] Ellie, this one was always my " 
+id 449 use 302 "John Hammond: You'll have to get used to Dr. Malcolm, he suffers" 
+id 601 use 303 "Wuher: Hey! We don't serve their kind here.
+Luke Skywalker: What" 
+id 364 use 304 "Luke Skywalker: [about Princess Leia] They're gonna execute her!" 
+id 563 use 305 "Uncle Owen: [about C-3PO and R5-D4] Luke! Take these two over to" 
+id 560 use 306 "Princess Leia Organa: I don't know who you are or where you came" 
+id 480 use 307 "Lex: What if the dinosaurs come back while we're all asleep?
+Dr." 

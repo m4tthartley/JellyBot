@@ -11,7 +11,7 @@
 			"file": "jelly_bot.cc",
 			"settings":
 			{
-				"buffer_size": 9002,
+				"buffer_size": 10237,
 				"line_ending": "Unix"
 			}
 		},
@@ -24,18 +24,10 @@
 			}
 		},
 		{
-			"file": "messages.txt",
-			"settings":
-			{
-				"buffer_size": 3395,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "build.sh",
 			"settings":
 			{
-				"buffer_size": 83,
+				"buffer_size": 82,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,15 +51,15 @@
 			"file": "/home/matt/work/gjLib/gj_linux.cc",
 			"settings":
 			{
-				"buffer_size": 1928,
+				"buffer_size": 2549,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "starwars.quotes",
+			"file": "raidersofthelostark.quotes",
 			"settings":
 			{
-				"buffer_size": 44425,
+				"buffer_size": 19150,
 				"line_ending": "Unix"
 			}
 		}
@@ -128,6 +120,11 @@
 	],
 	"file_history":
 	[
+		"/home/matt/work/slack/messages.txt",
+		"/home/matt/work/slack/test.quotes",
+		"/home/matt/work/slack/test2.quotes",
+		"/home/matt/work/slack/starwars.quotes",
+		"/home/matt/work/slack/jurassicpark.quotes",
 		"/home/matt/work/slack/bsd_sockets_stuff.cc",
 		"/home/matt/work/slack/curl_trace.txt",
 		"/home/matt/.config/sublime-text-3/Packages/User/MyBuild.sublime-build",
@@ -149,6 +146,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Share this",
+			"\\n\\n",
+			"saveStateToDisk",
+			"sendSlackMessage",
+			"seeing the dino",
+			"We're gonna make a fortune with this place.",
+			"[seeing the dinosaurs for the first time] We're gonna make a fortune with this place.",
+			"We're gonna make a fortune with this place",
+			"Share this",
+			"\\n\\n",
+			".*\\n.*\\n",
+			"currentIncrement",
 			"saveStateToDisk",
 			"\\n\\n",
 			".*\\n.*\\n",
@@ -159,7 +168,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -181,15 +190,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9002,
+						"buffer_size": 10237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6836,
-								6836
+								10234,
+								10234
 							]
 						],
 						"settings":
@@ -198,7 +207,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2075.0,
+						"translation.y": 4536.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -230,52 +239,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "messages.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3395,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1317,
-								1317
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "build.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 83,
+						"buffer_size": 82,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								31,
+								31
 							]
 						],
 						"settings":
@@ -286,17 +267,17 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "/home/matt/work/gjLib/gj_lib.h",
 					"semi_transient": false,
 					"settings":
@@ -308,8 +289,8 @@
 						"selection":
 						[
 							[
-								1363,
-								1363
+								1334,
+								1334
 							]
 						],
 						"settings":
@@ -318,14 +299,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 495.0,
+						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "/home/matt/work/gjLib/gj_win32.cc",
 					"semi_transient": false,
 					"settings":
@@ -347,67 +328,66 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "/home/matt/work/gjLib/gj_linux.cc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1928,
+						"buffer_size": 2549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								802,
-								802
+								83,
+								83
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
-						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.x": -0.0,
+						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "starwars.quotes",
+					"buffer": 6,
+					"file": "raidersofthelostark.quotes",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 44425,
+						"buffer_size": 19150,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1316,
-								1316
+								294,
+								294
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -472,6 +452,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"mess",
+				"messages.txt"
+			],
 			[
 				"tra",
 				"curl_trace.txt"
